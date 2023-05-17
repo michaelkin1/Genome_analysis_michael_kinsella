@@ -11,6 +11,8 @@ BWA:RNA_human.sh contains code for BWA mapping as well samtools and indexing for
 
 DESEQ2.R is an R file with code for the differential expression analysis and has code for signifiacnatly expressed genes, heatmap of these as well as upa and down regulated genes based of RNA-seq data. 
 
+GO_annotaions.xlsx is an excel file with GO annotations for the top 20 differentially expressed genes based on the RNA-seq data.
+
 HTSeq_Serum contains code for the HTSeq counting for all 6 files (3 samples from the two mediums BH and human serum) based of the BWA mapping. 
 
 assembly_canu and asembly_spades contains code for the assemblies based of the RAW sequencing data. 
@@ -21,8 +23,11 @@ fastQC_preprocessing.sh contains code for the fastQC quality control of the illu
 
 fastqc_postassebmly.sh contains code for the fastQC quality contron of the illumina reads post trimmomatic-processing. 
 
+mummerplot_2.sh contains code for the mummerplot for the two assemblies against each other.
 
-mummerplot_2.sh contains code for the mummerplot 
+prokka_annotation.sh contains code for the prokka functional annotation on the canu assembly.
 
+quast spades.sh contains code for the quast quality evulation on the spades assembly
 
+trimmomatic.sh contains code for the trimmomatic process on the illumina reads. 
 
