@@ -5,6 +5,9 @@ This repository contains code for SLURM batch files, an R-file for differential 
 Furthermore the wiki contains a project plan pre-analysis and a summary of the analysis performed and results from these. 
 
 Clarification of code files in main branch: 
+
+Note: all ".sh" files are SLURM batch files
+
 BWA_RNA_BH_2.sh contains code for BWA mapping as well samtools and indexing for BWA and samtools file for the BH-medium. 
 
 BWA:RNA_human.sh contains code for BWA mapping as well samtools and indexing for BWA and samtools file for the human serum-medium. 
@@ -27,7 +30,9 @@ mummerplot_2.sh contains code for the mummerplot for the two assemblies against 
 
 prokka_annotation.sh contains code for the prokka functional annotation on the canu assembly.
 
-quast spades.sh contains code for the quast quality evulation on the spades assembly
+quast_canu.sh contains code for the quast quality evulation on the canu assembly.
+
+quast_spades.sh contains code for the quast quality evulation on the spades assembly.
 
 trimmomatic.sh contains code for the trimmomatic process on the illumina reads. 
 
