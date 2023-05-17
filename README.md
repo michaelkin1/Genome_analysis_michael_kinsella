@@ -1,8 +1,8 @@
 # Genome_analysis_michael_kinsella
 Genome analysis project for paper 1 "RNA-seq and Tn-seq reveal fitness determinants of vancomycin-resistant Enterococcus faecium during growth in human serum"
 
-This repository contains code for SLURM batch files, an R-file for differential expression analysis as well as an xl file for Gene Ontology of the top 20 differentially expressed genes. 
-Furthermore the wiki contains a project plan pre-analysis and a summary of the analysis performed and results from these. 
+This repository contains code for SLURM batch files, an R-file for differential expression analysis as well as an excel-file for Gene Ontology of the top 20 differentially expressed genes. 
+Furthermore the wiki contains a project plan pre-analysis and a summary of the analysis performed and results from these. It also contains some answers to questions provided in the student manual. 
 
 Clarification of code files in main branch: 
 
